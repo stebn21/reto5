@@ -17,8 +17,7 @@ public class PlanetasModel {
     private double NivelOxigeno;
     private boolean HabitabilidadPlaneta;
     
-    public PlanetasModel (int IdPlanetas, String NombrePlanetas, int PoblacionPlanetas, double NivelOxigeno, boolean HabitabilidadPlaneta){
-        this.IdPlanetas=IdPlanetas;
+    public PlanetasModel (String NombrePlanetas, int PoblacionPlanetas, double NivelOxigeno, boolean HabitabilidadPlaneta){
         this.NombrePlanetas=NombrePlanetas;
         this.NivelOxigeno=NivelOxigeno;
         this.HabitabilidadPlaneta=HabitabilidadPlaneta;

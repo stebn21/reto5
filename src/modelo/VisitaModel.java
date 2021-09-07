@@ -15,8 +15,7 @@ public class VisitaModel {
     private int IdPlanetaFk;
     private int IdExpedicionesFk;
     
-    public VisitaModel(int IdVisita, String FechaHoraVisita, int IdPlanteaFk, int IdExpedicionesFk ){
-        this.IdVisita=IdVisita;
+    public VisitaModel(String FechaHoraVisita, int IdPlanteaFk, int IdExpedicionesFk ){
         this.FechaHoraVisita= FechaHoraVisita;
         this.IdPlanetaFk=IdPlanteaFk;
         this.IdExpedicionesFk=IdExpedicionesFk;
